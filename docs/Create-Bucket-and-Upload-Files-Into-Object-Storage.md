@@ -54,7 +54,7 @@ for path in upload_files_loc:
        obj = object_storage.put_object(namespace,mybucketname,os.path.basename(path),f)  
        print(f'uploaded "{path}" to bucket "{mybucketname}"')
 ```
-####  Make the Script executable without python intepeter
+####  Make the Script executable without python interpreter
 pip install pyinstaller
 pyinstaller -F  < your python script>
 in dist folder, you will see the executable file of your python script.
