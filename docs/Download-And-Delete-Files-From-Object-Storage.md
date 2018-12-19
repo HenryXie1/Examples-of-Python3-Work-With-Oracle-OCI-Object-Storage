@@ -72,7 +72,7 @@ if deleteconfirm.lower() == 'y':
 else:
     print('Nothing deleted')
 ```
-####  Make the Script executable without python intepeter
+####  Make the Script executable without python interpreter
 pip install pyinstaller
 pyinstaller -F  < your python script> .
 In dist folder, you will see the executable file of your python script.
